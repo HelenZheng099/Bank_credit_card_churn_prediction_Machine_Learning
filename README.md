@@ -1,4 +1,4 @@
-#**Business Problem**
+**Business Problem**
 
 Customer churn poses a significant risk for financial institutions, resulting in revenue loss. This project is of utmost importance for the banking institution, as it has the potential to enhance customer retention and drive profitability. By creating a reliable churn classification model, we can help institutions proactively address customer concerns and foster lasting relationships. The model enables targeted retention strategies, boosting customer satisfaction and loyalty.
 
@@ -12,7 +12,7 @@ This project provides valuable insights and recommendations for financial instit
 
 
 
-#**Dataset**
+**Dataset**
 
 The credit card churn dataset consists of 10,000 customers and 18 features, including age, salary, marital_status, credit card limit, and credit card category, among others. With only 16.07% of customers having churned, the dataset presents a class imbalance challenge, making it difficult to train the model to predict churning customers effectively.
 
@@ -42,5 +42,5 @@ The features in the data set are as follows:
 - Total_Ct_Chng_Q4_Q1 - Change in Transaction Count (Q4 over Q1).
 - Avg_Utilization_Ratio - Average Card Utilization Ratio.
 
-#**Metric Selection**
+**Metric Selection**
 In our classification model, we deemed “Recall” as the principal evaluation metric. Recall measures the proportion of true positive predictions among all actual positive instances, as well as the proportion of true negative predictions among all actual negative instances. When using recall, we aim to accurately assess the model's performance in correctly identifying the false negatives, that is to what extent the " attrite customers" is identified as "existing customers". Additionally, when presenting the leaderboard and learning curve, F1 is introduced as supplementary references as it maintains a balance between the precision and recall.
